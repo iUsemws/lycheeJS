@@ -48,11 +48,11 @@ else
 		echo "Fixing chmod rights...";
 
 		chmod -R 0777 ./projects;
-		chmod -R 0777 ./lychee;
 
 		chmod +x ./bin/fertilizer.sh;
 		chmod +x ./bin/fertilizer.js;
 		chmod +x ./bin/helper.sh;
+		chmod +x ./bin/helper.js;
 		chmod +x ./bin/sorbet.sh;
 		chmod +x ./bin/sorbet.js;
 
